@@ -1,0 +1,527 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"INDENT",
+				"INDENT_LEN"
+			],
+			[
+				"quot",
+				"quotmarkSingle"
+			],
+			[
+				"quotm",
+				"quotmarkDouble"
+			],
+			[
+				"getGro",
+				"getGroupNodes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/sublime-grunt-build/grunt.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pakage",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 230.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/d/s/github/perljs/lib/jsdoc.js",
+		"/C/cygwin64/home/me/.bash_history",
+		"/D/d/s/github/jshint-test/lib/header.js",
+		"/D/d/s/github/jshint-test/lib/relax/supernew.js",
+		"/D/d/s/github/jshint-test/lib/relax/FAIL-proto.js",
+		"/D/d/s/github/jshint-test/lib/relax/noyeild.js",
+		"/D/d/s/github/jshint-test/lib/relax/noyield.js",
+		"/D/d/s/github/jshint-test/lib/relax/validthis.js",
+		"/D/d/s/github/jshint-test/lib/relax/sub.js",
+		"/D/d/s/github/jshint-test/lib/relax/shadow.js",
+		"/D/d/s/github/jshint-test/lib/relax/smarttabs.js",
+		"/D/d/s/github/jshint-test/lib/relax/scripturl.js",
+		"/D/d/s/github/jshint-test/lib/relax/proto.js",
+		"/D/d/s/github/jshint-test/lib/relax/lastsemic.js",
+		"/D/d/s/github/jshint-test/lib/relax/funcscope.js",
+		"/D/d/s/github/jshint-test/lib/relax/laxbreak.js",
+		"/D/d/s/github/jshint-test/lib/relax/laxcomma.js",
+		"/D/d/s/github/jshint-test/lib/relax/notypeof.js",
+		"/D/d/s/github/jshint-test/lib/relax/multistr.js",
+		"/D/d/s/github/jshint-test/lib/relax/loopfunc.js",
+		"/D/d/s/github/jshint-test/lib/relax/TODO_moz.js",
+		"/D/d/s/github/jshint-test/lib/relax/iterator.js",
+		"/D/d/s/github/jshint-test/pj-jshint-test.sublime-project",
+		"/D/d/s/github/jshint-test/lib/_inline_jshint_opts.js",
+		"/D/d/s/github/jshint-test/lib/permissive_inline_jshint_opts.js",
+		"/D/d/s/github/jshint-test/lib/pref_inline_jshint_opts.js",
+		"/D/d/s/github/jshint-test/lib/relax/expr.js",
+		"/D/d/s/github/jshint-test/lib/relax/globalstrict.js",
+		"/D/d/s/github/jshint-test/lib/relax/TODO_gcl.js",
+		"/D/d/s/github/jshint-test/dist/relax.js",
+		"/D/d/s/github/jshint-test/lib/relax/evil.js",
+		"/D/d/s/github/jshint-test/lib/relax/TODO_asi.js",
+		"/D/d/s/github/jshint-test/lib/relax/TODO_esnext.js",
+		"/D/d/s/github/jshint-test/lib/relax/eqnull.js",
+		"/D/d/s/github/jshint-test/lib/relax/debug.js",
+		"/D/d/s/github/jshint-test/lib/relax/asi.js",
+		"/D/d/s/github/jshint-test/lib/relax/boss.js",
+		"/D/d/s/js-play/jshint/bin/jshint-inline.pl",
+		"/D/d/s/js-play/jshint/Gruntfile.js",
+		"/D/d/s/js-play/jshint/lib/empty.js",
+		"/D/d/s/js-play/jshint/package.json",
+		"/D/d/s/js-play/jshint/lib/relax/asi.js",
+		"/D/d/s/js-play/jshint/lib/permissive_inline_jshint_opts.js",
+		"/D/d/s/js-play/jshint/lib/_inline_jshint_opts.js",
+		"/D/d/s/js-play/jshint/lib/enforce/nonbsp.js",
+		"/D/d/s/js-play/jshint/lib/enforce/maxlen.js",
+		"/D/d/s/js-play/jshint/lib/ignore/bad.js",
+		"/D/d/s/js-play/jshint/lib/header.js",
+		"/D/d/s/js-play/jshint/lib/enforce/maxomplexity.js",
+		"/D/d/s/js-play/jshint/lib/enforce/maxstatements.js",
+		"/D/d/s/js-play/jshint/lib/enforce/maxdepth.js",
+		"/D/d/s/js-play/jshint/lib/enforce/maxparams.js",
+		"/D/d/s/js-play/jshint/lib/enforce/trailing.js",
+		"/D/d/s/js-play/jshint/lib/enforce/undef.js",
+		"/D/d/s/js-play/jshint/lib/enforce/FAIL_undef_function_scope.js",
+		"/D/d/s/js-play/jshint/lib/enforce/nonew.js",
+		"/D/d/s/js-play/jshint/lib/enforce/quotmark_single.js",
+		"/D/d/s/js-play/jshint/lib/enforce/quotmark_double.js",
+		"/D/d/s/js-play/jshint/lib/enforce/quotmark.js",
+		"/D/d/s/js-play/jshint/lib/enforce/plusplus.js",
+		"/D/d/s/js-play/jshint/lib/enforce/noarg.js",
+		"/D/d/s/js-play/jshint/lib/enforce/indent.js",
+		"/D/d/s/js-play/jshint/lib/enforce/immed.js",
+		"/D/d/s/js-play/jshint/lib/enforce/freeze.js",
+		"/D/d/s/js-play/jshint/lib/enforce/FAIL_noempty.js",
+		"/D/d/s/js-play/jshint/dist/enforce.js",
+		"/D/d/s/js-play/jshint/lib/enforce/strict.js",
+		"/D/d/s/js-play/jshint/lib/enforce/strict_function_scoped.js",
+		"/D/d/s/js-play/jshint/lib/jshintopts.txt",
+		"/D/d/s/js-play/jshint/lib/enforce/unused_vars.js",
+		"/D/d/s/js-play/jshint/lib/enforce/unused_strict.js",
+		"/D/d/s/js-play/jshint/lib/enforce/unused.js",
+		"/D/d/s/js-play/jshint/lib/enforce/TODO_es3.js",
+		"/D/d/s/js-play/jshint/lib/enforce/newcap.js",
+		"/D/d/s/js-play/jshint/lib/enforce/latedef_nofurc.js",
+		"/D/d/s/js-play/jshint/lib/enforce/latedef.js",
+		"/D/d/s/js-play/jshint/lib/enforce/forin.js",
+		"/D/d/s/js-play/jshint/lib/enforce/FAIL_camelcase_function_scope.js",
+		"/D/d/s/js-play/jshint/lib/enforce/eqeqeq.js",
+		"/D/d/s/js-play/jshint/lib/enforce/curly.js",
+		"/D/d/s/js-play/jshint/lib/enforce/camelcase.js",
+		"/D/d/s/js-play/jshint/lib/enforce/bitwise.js",
+		"/D/d/s/js-play/jshint/lib/enforce/FAIL_unused_function_scope.js",
+		"/D/d/s/js-play/jshint/lib/enforce/camelcase_function_scope.js",
+		"/D/d/s/js-play/jshint/lib/enforce/noempty.js",
+		"/D/d/s/js-play/jshint/lib/enforce/TODO_latedef_nofunc.js",
+		"/D/d/s/js-play/jshint/lib/enforce/es3.js",
+		"/D/d/s/js-play/jshint/.jshintignore",
+		"/D/d/s/js-play/jshint/lib/bad-forin.js",
+		"/D/d/s/js-play/jshint/lib/bitwise.js",
+		"/D/d/s/js-play/jshint/lib/bad.js",
+		"/D/d/s/js-play/jshint/utf.pl",
+		"/D/d/s/ontology/play/d3/WebContent/package.json",
+		"/D/d/s/github/QUnitChainer/dist/qunit.css",
+		"/D/d/s/github/QUnitChainer/0-control.html",
+		"/D/d/s/github/QUnitChainer/0-monitor.html",
+		"/D/d/s/github/QUnitChainer/replace.pl",
+		"/D/d/s/github/QUnitChainer/_test_failures/q-test3.html",
+		"/D/d/s/github/QUnitChainer/_test_failures/test-plan.js",
+		"/D/d/s/github/QUnitChainer/_test_passes/q-test3.html",
+		"/D/d/s/github/QUnitChainer/_test_passes/test-plan.js",
+		"/D/d/s/github/QUnitChainer/sample/q-test.html",
+		"/D/d/s/github/QUnitChainer/sample/q-test2.html",
+		"/D/d/s/github/QUnitChainer/sample/q-test3.html",
+		"/D/d/s/github/QUnitChainer/sample/q-test4.html",
+		"/D/d/s/github/QUnitChainer/sample/test-plan.js",
+		"/D/d/s/github/QUnitChainer/Gruntfile.js",
+		"/D/d/s/github/QUnitChainer/jasmine/jasmine-html.js",
+		"/C/Users/me/AppData/Roaming/Sublime Text 2/Packages/Default/Side Bar.sublime-menu",
+		"/C/Users/me/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/me/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/D/d/s/ontology/play/d3/WebContent/dataflow/resources/dagre-d3.js",
+		"/C/Users/me/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/d/s/github/BigScreen/pj-BigScreen.sublime-workspace",
+		"/C/Users/me/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/d/s/github/BigScreen/js/jquery-ui-1.8.16.custom.min.js",
+		"/D/d/s/github/BigScreen/js/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js",
+		"/C/Users/me/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript.sublime-settings"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"reverseMap",
+			"example",
+			"todo",
+			"_value",
+			"\n	",
+			"reverseMap",
+			"makeLookup",
+			"lookup Object",
+			"makeLookup",
+			"Map",
+			"@todo",
+			"console.log",
+			"console",
+			"todo",
+			".qA",
+			"undefined",
+			"mapFromArray",
+			"_stringify",
+			"module.exports",
+			".q(",
+			"module.exports",
+			"@todo",
+			"._value",
+			"'object'",
+			"array",
+			"todo",
+			"NaN",
+			"_value",
+			"@see",
+			"console",
+			"_console",
+			"console.log",
+			"NaN",
+			"keyValue",
+			"TODO",
+			"  ",
+			"    ",
+			"  ",
+			"    ",
+			"TODO",
+			"throw",
+			"TODO",
+			"    ",
+			"throw",
+			"tODO",
+			"TODO",
+			"  ",
+			"plugin",
+			"new",
+			"jshint",
+			"new",
+			"yeild",
+			"yield",
+			"setting",
+			"   ",
+			"  ",
+			"undef",
+			"not_at_all",
+			"nonew",
+			"freeze",
+			"forin",
+			"border-radius",
+			"install_npm_global_from",
+			"getendpointnode",
+			"forIdx",
+			"edge",
+			"ExternalEdges",
+			"severedEdges",
+			"forKeys",
+			"forIdx",
+			"getEndpointNode",
+			"getEndpointNod",
+			"assert",
+			"testLog",
+			".error",
+			"idx",
+			"forIdx",
+			"severedEdge",
+			"collapseGroup",
+			"addGroupNode",
+			"addNode",
+			"addGroupNode",
+			"addNode",
+			"outEdges",
+			"function outEdges",
+			"outEdges",
+			"outEdge",
+			"outEdges",
+			"graphlib",
+			"nodesFromList",
+			"nodes",
+			"collapseGroup",
+			"console.clear",
+			"logVar",
+			"renderer",
+			"layout",
+			"clicked",
+			"edges",
+			"nodes",
+			"dagre",
+			"g",
+			"logEvent",
+			"all",
+			"_postLayout",
+			"layout",
+			"run",
+			"render",
+			"node",
+			"rect",
+			"20800731",
+			"FB84C0",
+			"layout",
+			"nodes_d",
+			"layout",
+			"dataflow",
+			"transform",
+			"BSAC",
+			"console.logVar",
+			"logVar",
+			"d3bug.log",
+			"console.",
+			"log",
+			"logVar",
+			"clear",
+			"render",
+			"; g",
+			";",
+			"dagre"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"makeMap",
+			"map Object",
+			"makeMap",
+			"perljs",
+			"",
+			"perl",
+			"value",
+			"\\t",
+			"yield",
+			"yeild",
+			"noyield",
+			"validthis",
+			"supernew",
+			"sub",
+			"shadow",
+			"smarttabs",
+			"scripturl",
+			"proto",
+			"notypeof",
+			"multistr",
+			"moz",
+			"loopfunc",
+			"laxcomma",
+			"laxbreak",
+			"lastsemic",
+			"iterator",
+			"globalstrict",
+			"funcscope",
+			"expr",
+			"evil",
+			"eqnull",
+			"debug",
+			"\\t",
+			"logZoom",
+			"Renderer",
+			"Layout",
+			"Clicked",
+			"svgEdges",
+			"svgNodes",
+			"svgDagre",
+			"DAGRenderer",
+			"Graph",
+			"activeView",
+			"dataflow",
+			"console.logVar",
+			";\\ng",
+			";\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 190.0
+	},
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dagre",
+				"play/d3/WebContent/dagre-d3.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true
+}
