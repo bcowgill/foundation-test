@@ -13,6 +13,9 @@ everything - the bundle with everything http://foundation.zurb.com/cdn/releases/
 
 custom-default - using custom download http://foundation.zurb.com/develop/download.html#customizeFoundation
 
+custom-default-1column/ - using custom download with only 1 column in the grid - to cut down on CSS rules to locate all the background color settings.
+
+
 custom-colorblind - custom download with colours chosen for dark scheme and colour blind safe from Paul Tol http://www.sron.nl/~pault/
 Primary Color: #44AA99
 Secondary Color: #88CCEE
@@ -20,3 +23,6 @@ Alert Color: #CC6677
 Success Color: #117733
 Body Font Color: #DDCC77
 Header Font Color: #999933
+
+custom-colorblind-1column/ - custom download 1 column to diff with the custom default 1 column
+
