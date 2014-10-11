@@ -54,7 +54,6 @@ img {
 
 <!-- Navigation Example -->
 
-
 <nav class="top-bar foundation-bar" data-topbar>
 	<ul class="title-area">
 		<li class="name">
@@ -185,29 +184,72 @@ img {
 <div class="row">
 	<div class="small-12 small-centered columns">
 			<form>
+				<fieldset><legend>Wide Fields</legend>
 				<div class="row">
 					<div class="large-12 columns">
-						<label>Input Label
-							<input type="text" placeholder="Text here" />
+						<label for="in1">Input Label <small>with small commentary here</small>
+							<input name="in1" type="text" placeholder="Label with small" />
 						</label>
 					</div>
 				</div>
 				<div class="row">
+					<div class="large-12 columns">
+						<label class="right" for="in2">Input Label right <small>with small commentary here</small>
+							<input name="in2" type="text" placeholder="Label right" />
+						</label>
+					</div>
+				</div>
+				</fieldset>
+				<fieldset><legend>Inlne Labels</legend>
+				<div class="row">
+					<div class="small-2 medium-2 large-1 columns">
+						<label class="inline right" for="in2a"><span class="show-for-small-only">Inline</span><span class="show-for-medium-up">Label Inline</span></label>
+					</div>
+					<div class="small-10 medium-10 large-11 columns">
+						<input name="in2a" type="text" placeholder="Label inline right" />
+					</div>
+				</div>
+				<div class="row collapse">
+					<div class="small-2 medium-2 large-1 columns">
+						<label class="inline" for="in2b">URL</label>
+					</div>
+					<div class="small-1 columns">
+						<span class="prefix">http://</span>
+					</div>
+					<div class="small-9 medium-9 large-10 columns">
+						<input name="in2b" type="text" placeholder="label.inline.prefix.site.com" />
+					</div>
+				</div>
+				<div class="row collapse">
+					<!-- TODO - bug when small/medium size rounds misalign -->
+					<div class="small-2 large-1 columns">
+						<a href="#" class="prefix button secondary disabled round">&gt;&gt;</a>
+					</div>
+					<div class="small-8 large-10 columns">
+						<input name="in2c" type="text" placeholder="BUG! prefix button secondary disabled round -- postfix button round" />
+					</div>
+					<div class="small-2 large-1 columns">
+						<a href="#" class="postfix button round">Search</a>
+					</div>
+				</div>
+				</fieldset>
+				<fieldset><legend>Columns of Fields</legend>
+				<div class="row">
 					<div class="large-4 columns">
-						<label>Input Label
-							<input type="text" placeholder="Text here" />
+						<label for="in5">Input Label
+							<input name="in5" type="text" placeholder="Text here" />
 						</label>
 					</div>
 					<div class="large-4 columns">
-						<label>Input Label
-							<input type="text" placeholder="Text here" />
+						<label for="in6">Input Label
+							<input name="in6" type="text" placeholder="Text here" />
 						</label>
 					</div>
 					<div class="large-4 columns">
 						<div class="row collapse">
-							<label>Input Label</label>
+							<label for="in7">Input Label</label>
 							<div class="small-9 columns">
-								<input type="text" placeholder="Domain" />
+								<input name="in7" type="text" placeholder="Domain" />
 							</div>
 							<div class="small-3 columns">
 								<span class="postfix">.com</span>
@@ -217,8 +259,32 @@ img {
 				</div>
 				<div class="row">
 					<div class="large-12 columns">
-						<label>Select Box
-							<select>
+						<div class="row collapse prefix-radius">
+							<div class="small-3 columns">
+								<label class="prefix" for="in7a">Input Label</label>
+							</div>
+							<div class="small-9 columns">
+								<input name="in7a" type="text" placeholder="row collapse prefix-radius" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-12 columns">
+						<div class="row collapse postfix-radius">
+							<div class="small-9 columns">
+								<input name="in7b" type="text" placeholder="row collapse postfix radius" />
+							</div>
+							<div class="small-3 columns">
+								<span class="postfix">Postfix</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-12 columns">
+						<label for="in8">Select Box
+							<select name="in8">
 								<option value="husker">Husker</option>
 								<option value="starbuck">Starbuck</option>
 								<option value="hotdog">Hot Dog</option>
@@ -229,30 +295,29 @@ img {
 				</div>
 				<div class="row">
 					<div class="large-6 columns">
-						<label>Choose Your Favorite</label>
+						<label for="pokemon">Choose Your Favorite</label>
 						<input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Squirtle</label>
 						<input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Charmander</label>
 					</div>
 					<div class="large-6 columns">
 						<label>Check these out</label>
-						<input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-						<input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+						<input id="checkbox1" name="in9" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+						<input id="checkbox2" name="in10" type="checkbox"><label for="checkbox2">Checkbox 2</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="large-12 columns">
-						<label>Textarea Label
-							<textarea placeholder="small-12.columns"></textarea>
+						<label for="in11">Textarea Label
+							<textarea name="in11" placeholder="small-12.columns"></textarea>
 						</label>
 					</div>
 				</div>
+			</fieldset>
 			</form>
 	</div>
 </div>
 
-
 <!-- Forms Example -->
-
 
 <nav class="top-bar foundation-bar" data-topbar>
 	<ul class="title-area">
@@ -409,7 +474,6 @@ img {
 		<img data-interchange="[http://foundation.zurb.com/docs/assets/img/examples/space-small.jpg, (small)], [http://foundation.zurb.com/docs/assets/img/examples/space-medium.jpg, (medium)], [http://foundation.zurb.com/docs/assets/img/examples/space-large.jpg, (large)]">
 	</div>
 </div>
-
 
 <!-- My Test Area -->
 
