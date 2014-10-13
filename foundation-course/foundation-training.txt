@@ -1,0 +1,347 @@
+Grid
+
+can you set the base width to 100%
+
+100px base width by default
+12 columns by default
+nested grids
+
+small < 640
+medium <= 1024
+large > 1024
+
+small-4
+etc
+small-offset-2 - 2 columns of spacing
+
+always make a row and a column
+dont put a row inside a row.
+dont put a column inside a column.
+alternate row, column
+
+body
+ div class=row
+  div class=column or columns same thing
+  div class=column
+   div class=row
+    div class=column
+
+large-9 large-push-3 pushed to right
+large-3 large-pull-9 pulls to left
+hide-for-large
+show-for-medium-up
+
+pull and push docs
+http://foundation.zurb.com/docs/components/grid.html#source-ordering
+
+changing default breakpoints
+http://zurb.com/university/lessons/20
+
+to make row stretch to full width
+add a class .row { max-width: none }
+
+class unavailable makes unable for user to click on it but still visible.
+
+pagination component
+ul class=pagination  pagination-centered
+ li class arrow unavailable &laquo
+ li class current
+ li class unavailable
+ li class arrow &raquo;
+
+side navs component
+ul class side-nav
+ li class active button
+ li class divider
+ li 
+
+dl class sub-nav
+ dt filter
+ dd class active all
+ dd active
+ dd pending
+ dd suspended
+
+breadcrumb component
+ul class breadcrumbs
+ li home
+ li features
+ li class unavailable gene splicing
+ li class current cloning
+
+top bar component
+nav class top-bar
+ ul class title-area
+  li class name
+   h1 title
+  li class toggle-topbar menu-icon menu
+
+top bar secions
+section class top-bar-section
+ ul class left
+  li class divider
+  li class active a main item 1
+  li class divider
+  li main item 2
+  li class divider
+  li class has-dropdown a main item 3
+   ul class dropdown
+    li class has-dropdown a dropdown level 1a
+     
+
+foundation.zurb.com/docs/components/top-bar.html
+works good as it is. tough to customise
+
+
+typography
+h1 class subheader  lighter version of h1
+hi title small subtitle 
+
+inline list navigation component
+ul class inline-list
+ li link1
+ li link2
+
+foundation.zurb.com/docs/components/inline-lists.html
+
+labels like a button
+span class label regular label
+span class radius secondary label   (gray, rounded)
+span class round alert label
+span class success label
+
+foundation.zurb.com/docs/components/labels.html
+
+Block grids - augment the foundation grid for images, blocks of content thumbnails
+ul class small-block-grid-3 medium-block-grid-4 large-block-grid-5
+ li img src...
+ li img src...
+
+foundation.zurb.com/docs/components/block-grid.html
+
+Panel component
+simple containers standard and callout radius
+add a panel to your grid to see the grid laid out.
+
+div class panel
+div class callout panel
+div class radius callout panel
+
+any element can be made to a panel
+
+row class=collapse  removes padding on a row
+
+foundation icon fonts use version 3
+
+Buttons
+class .button to any b button input type submit
+class small button
+class tiny button
+class large button
+class small secondary button
+
+color secondary success alert
+large expand button - takes full width of containing element
+radius or round
+class button disabled
+
+	Button groups
+ul class button-group (radius,round even-N added here to apply to all buttons)
+ a class button alert
+ 
+ul class even-2  for two buttons evenly spaced in the group 
+
+zurb.github.io/foundation-course/prototyping-2/buttons.html
+
+Forms
+inputs take up full width of the grid container.
+styled based on type attribute not classes
+
+form
+ fieldset
+  legend
+   div class row
+    div class large-12 columns
+     label Label
+     input type text placeholder default text
+
+inline labels
+labels to left of inputs put label in another column
+class right on label to alignt it
+class inline  to vertically align label to field.
+form
+div class row
+ div class small-3 columns
+  label class right inline  for=field Label
+ div class column
+  input text name field
+
+pre-postfix labels and actions
+div class row collapse
+class postfix
+
+dont want user to type http://
+
+form
+ div class row collapse
+  div class small-3 large-2 columns
+   span class predix http://
+  div class small-9 large-10 columns
+   input type text placeholder Enter URL
+
+postfix i.e.   .com to end of a url  or % or $ 
+div class row
+ div class large-6 columns
+  div class row collapse
+   div class small-10 columns
+    input type text placeholder Hex Value
+   div class small-2 columns
+    span class postfix radius  Label
+
+Error states
+class error to label, input, small or column/div
+
+form
+ div class row
+  div class large-6 columns
+  label class error
+  input type text class error
+  small class error  Invalid data
+
+Selects, radio buttons and checkboxes
+native components are more recognisable and usable by users.
+especially on mobile.
+
+
+Visibility classes
+turn elements on/off on screen size touch capability or orientation
+
+.show-for-small-only etc.
+.show-for-medium-up
+.show-for-xxlarge-only
+
+.hide-for-small-only
+.hide-for-medium-up
+
+.show-for-landscape
+.hide-for-portrait
+
+.show-for-touch
+.hide-for-touch
+
+use these show/hide for prototyping still has to download the content
+so bad for mobile devices.
+
+
+foundation.zurb.com/page-templates4/feed.html
+
+responsive design js/foundation
+build useful features into site much quicker.
+modals slideshows novigation
+
+clearing plugin - full screen white box view of an image
+ul class clearing-thumbs data-clearing
+ li a img src data-caption
+ li a img src
+
+Joyride plugin - a feature tour of your site
+$(document).foundation().foundation('joyride', 'start');
+
+ol class joyride-list data-joyride
+ li data-id firstStop data-button Next data-options tip_location: top
+  p hello ...
+ li data-class so-awesome data-button Close
+  h4 stop #1
+  p you can control all the details for your tour stop
+
+
+will position your viewport at the firstStop ID element and show the message.
+clicking next button takes you to the next place on the page.
+can make it progress the tour on a timer.
+
+Orbit plugin - a slide show for images/content/forms etc slider with captions
+ul data-orbit
+ li
+  img src
+  div class orbit-caption
+ li
+  h2 Content Slide
+  p a really intriguieing content
+
+can change slides on a timer
+
+Reveal plugin - modal dialog
+div id myModal class reveal-modal data-reveal
+ h2 Read Me
+ p class lead modals should be fun
+ p I'm a cool paragraph
+ a class close-reveal-modal &#215;
+
+open modal
+a href # data-reveal-id myModal Open
+
+$(#myModal).foundation('reveal','open');
+$(#myModal).foundation('reveal','close');
+
+events
+.on open   on begin animation in
+.on opened  on fully open
+.on close on begin animation out
+.on closed  on fully closed
+
+
+orbit slider inside a modal
+$(#firstModal').on('opened', function () {
+  $(this).foundation(); // will make orbit render the slides
+})
+
+
+Interchange plugin
+include responsive content based on the device they are using.
+i.e. replace show-for-small 
+img data-interchange=[my-image.jpg (only screen and (max-width: 800px))]
+
+smallest query first largest last
+
+[default.jpg, (default)], [medium, (small)], [large.jpg, {medium)]
+noscript
+ img src default.jpg
+
+Abide plugin - html5 validation of input fields with library of regexes
+
+form data-abide 
+ input name email type text pattern=".+@.+" required
+ input name city type text required
+ input name zipcode type text pattern number
+
+data-abide=ajax  
+$ .new-guest
+  .on valid function
+  $.put url data callbackl
+  .on invalid function...
+
+Accordion plugin -  vertical version of tabs
+dl class accordion data-accordion
+ dd
+  a href #panel1 Accordion 1
+  div id panel1 class content active
+   Content
+  dd
+   a href #panel2 Accordion 2
+   div id panel2
+
+Tabs plugin
+dl class tabs data-tab
+ dd class active a href #panel2-1 Tab 1
+ dd a href #panel2-2 Tab 2
+div class tabs-content
+ div class content active id panel2-1
+  p First panel content here
+ div class content id panel2-2
+  p Second panel content here
+
+Foundation for Apps -> angular and a jquery lite
+
+mordenizr included in the head of the page
+jquery then foundation in the body bottom.
+then initialise foundation
