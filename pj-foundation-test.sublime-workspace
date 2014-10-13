@@ -27,7 +27,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 120,
+				"buffer_size": 1156,
 				"line_ending": "Unix"
 			}
 		},
@@ -36,6 +36,71 @@
 			"settings":
 			{
 				"buffer_size": 12,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "change-background.sh",
+			"settings":
+			{
+				"buffer_size": 2485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "foundation-test.html",
+			"settings":
+			{
+				"buffer_size": 20951,
+				"line_ending": "Windows",
+				"name": "foundation-test.html"
+			}
+		},
+		{
+			"file": "/D/d/s/github/bsac-linux-cfg/bin/template/html/html5.html",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/d/s/github/bsac-linux-cfg/bin/template/html/html5-template.html",
+			"settings":
+			{
+				"buffer_size": 779,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "parse-css.pl",
+			"settings":
+			{
+				"buffer_size": 5703,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "out.err",
+			"settings":
+			{
+				"buffer_size": 474582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "custom-default/css/foundation.css",
+			"settings":
+			{
+				"buffer_size": 180254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/foundation.css",
+			"settings":
+			{
+				"buffer_size": 181874,
 				"line_ending": "Unix"
 			}
 		}
@@ -208,6 +273,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"found",
+			"fafafa",
+			"0.75",
+			"4d4d4d",
+			"676767",
+			"#222222",
+			"rgba",
+			"#676767",
+			"676767",
+			"REPLACE",
+			"css_path",
+			"print",
+			"/*",
+			"#fafafa",
+			"radius",
+			"form",
+			"radius",
+			"form",
+			"div",
+			"  ",
+			"     <span",
+			"  ",
+			"	 <",
+			"\"  target",
+			"  ",
+			"a  href",
+			"  ",
+			"main-secition",
 			"reverseMap",
 			"example",
 			"todo",
@@ -307,34 +400,6 @@
 			"clicked",
 			"edges",
 			"nodes",
-			"dagre",
-			"g",
-			"logEvent",
-			"all",
-			"_postLayout",
-			"layout",
-			"run",
-			"render",
-			"node",
-			"rect",
-			"20800731",
-			"FB84C0",
-			"layout",
-			"nodes_d",
-			"layout",
-			"dataflow",
-			"transform",
-			"BSAC",
-			"console.logVar",
-			"logVar",
-			"d3bug.log",
-			"console.",
-			"log",
-			"logVar",
-			"clear",
-			"render",
-			"; g",
-			";",
 			"dagre"
 		],
 		"highlight": true,
@@ -343,6 +408,16 @@
 		"regex": true,
 		"replace_history":
 		[
+			"ul",
+			"li",
+			"\\t",
+			"\\t\\t\\t<span",
+			"\\t",
+			"\\t\\t<",
+			"\" target",
+			"\\t",
+			"a href",
+			"\\t",
 			"makeMap",
 			"map Object",
 			"makeMap",
@@ -400,7 +475,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -408,15 +483,15 @@
 					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 120,
+						"buffer_size": 1156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1156,
+								1156
 							]
 						],
 						"settings":
@@ -424,7 +499,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 131.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -448,6 +523,225 @@
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "change-background.sh",
+					"settings":
+					{
+						"buffer_size": 2485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "foundation-test.html",
+					"settings":
+					{
+						"buffer_size": 20951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"auto_name": "foundation-test.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/d/s/github/bsac-linux-cfg/bin/template/html/html5.html",
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/d/s/github/bsac-linux-cfg/bin/template/html/html5-template.html",
+					"settings":
+					{
+						"buffer_size": 779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "parse-css.pl",
+					"settings":
+					{
+						"buffer_size": 5703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Perl/Perl.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "out.err",
+					"settings":
+					{
+						"buffer_size": 474582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 88775.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "custom-default/css/foundation.css",
+					"settings":
+					{
+						"buffer_size": 180254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/foundation.css",
+					"settings":
+					{
+						"buffer_size": 181874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -495,7 +789,7 @@
 	},
 	"replace":
 	{
-		"height": 86.0
+		"height": 87.0
 	},
 	"save_all_on_build": true,
 	"select_file":
