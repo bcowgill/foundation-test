@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+# Parse the Foundation library CSS and make dark background
+# ./parse-css.pl custom-default/css/foundation.css  2> out.err > css/foundation.css; vdiff custom-default/css/foundation.css css/foundation.css; less out.err
+
 use strict;
 use warnings;
 use English -no_match_vars;
@@ -19,6 +22,28 @@ my $Body_Font_Color = '#DDCC77';
 my $Header_Font_Color = '#999933';
 my $Body_Font_Color_rgba75 = 'rgba(221, 204, 119, 0.75)';
 my $Body_Font_Color_rgba25 = 'rgba(221, 204, 119, 0.25)'; # for placeholders in input
+
+my $Add_Rules = << "EOCSS";
+/*
+   Foundation is missing style for input placeholders
+   http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
+*/
+
+/* WebKit browsers */
+::-webkit-input-placeholder {
+    color:    $Body_Font_Color_rgba25; }
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+   color:    $Body_Font_Color_rgba25;
+   opacity:  1; }
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+   color:    $Body_Font_Color_rgba25;
+   opacity:  1; }
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+   color:    $Body_Font_Color_rgba25; }
+EOCSS
 
 my %Replacements = (
 	qr{ \A (\s* background(?:-color)? \s* : \s* ) white ( \s* ; \s* ) \z }xms => sub {
@@ -169,6 +194,15 @@ while (my $line = <>)
 				close_rule();
 			}
 		}
+		elsif ($line =~ m{\A \s* \{ \s* \z}xms)
+		{
+			open_rule($found);
+			$found = '';
+		}
+		elsif ($line =~ m{\A \s* \} \s* \z}xms)
+		{
+			close_rule();
+		}
 		elsif ($line =~ m{\A ( \s* [^:]* : \s* [^;]+ \s*; \s*) \z}xms)
 		{
 			property($1);
@@ -194,8 +228,12 @@ while (my $line = <>)
 		}
 		elsif ($line !~ m{\A \s* \z}xms)
 		{
-			warn qq{What? [$line]\n};
+			warn qq{What? [$line] -- assume ruleset\n};
+			$found .= "$line ";
+			$state = 'part-rule';
 		}
 	}
 }
+print $Add_Rules;
+
 debug(Dumper(\%FoundCounter));

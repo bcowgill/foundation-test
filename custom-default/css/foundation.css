@@ -5906,23 +5906,3 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
-
-/*
-   Foundation is missing style for input placeholders
-   http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
-*/
-
-/* WebKit browsers */
-::-webkit-input-placeholder {
-    color:    rgba(221, 204, 119, 0.250); }
-/* Mozilla Firefox 4 to 18 */
-:-moz-placeholder {
-   color:    rgba(221, 204, 119, 0.250);
-   opacity:  1; }
-/* Mozilla Firefox 19+ */
-::-moz-placeholder {
-   color:    rgba(221, 204, 119, 0.250);
-   opacity:  1; }
-/* Internet Explorer 10+ */
-:-ms-input-placeholder {
-   color:    rgba(221, 204, 119, 0.250); }

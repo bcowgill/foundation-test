@@ -1,5 +1,5 @@
 meta.foundation-version {
-  font-family: "/5.4.6/"; 
+  font-family: "/5.4.6/";
 }
 meta.foundation-mq-small {
   font-family: "/only screen/";
@@ -6789,19 +6789,15 @@ th.hide-for-touch {
 
 /* WebKit browsers */
 ::-webkit-input-placeholder {
-    color:    rgba(221, 204, 119, 0.250); 
-}
+    color:    rgba(221, 204, 119, 0.25); }
 /* Mozilla Firefox 4 to 18 */
 :-moz-placeholder {
-   color:    rgba(221, 204, 119, 0.250);
-   opacity:  1; 
-}
+   color:    rgba(221, 204, 119, 0.25);
+   opacity:  1; }
 /* Mozilla Firefox 19+ */
 ::-moz-placeholder {
-   color:    rgba(221, 204, 119, 0.250);
-   opacity:  1; 
-}
+   color:    rgba(221, 204, 119, 0.25);
+   opacity:  1; }
 /* Internet Explorer 10+ */
 :-ms-input-placeholder {
-   color:    rgba(221, 204, 119, 0.250); 
-}
+   color:    rgba(221, 204, 119, 0.25); }
