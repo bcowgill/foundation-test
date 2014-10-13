@@ -8,7 +8,8 @@
 export COLOR=black
 echo Changing background color to $COLOR in $*
 perl -pne 's{( background(?:-color)?: \s* ) white ( \s* ; )}{$1$ENV{COLOR}$2}xmsg' \
-	$* > $*.dark
+	$* > css/foundation.css
+#  $* > $*.dark
 
 # button secondary, success, alert, also hard coded
 # warning, info, disabled colors hard coded
