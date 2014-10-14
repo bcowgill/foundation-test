@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 # Parse the Foundation library CSS and make dark background
 # ./parse-css.pl custom-default/css/foundation.css  2> out.err > css/foundation.css; vdiff custom-default/css/foundation.css css/foundation.css; less out.err
+# a more general parser might be a better idea: http://search.cpan.org/~iamcal/CSS-1.09/CSS.pm
 
 use strict;
 use warnings;
@@ -28,7 +29,10 @@ my $Add_Rules = << "EOCSS";
    Foundation is missing style for input placeholders
    http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
 */
-
+/*
+   Styling input form placeholder text.
+   http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
+*/
 /* WebKit browsers */
 ::-webkit-input-placeholder {
     color:    $Body_Font_Color_rgba25; }
