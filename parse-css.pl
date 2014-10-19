@@ -60,12 +60,17 @@ my %Replacements = (
 	},
 	# fafafa select/textarea background color
 	# f3f3f3 select hover background color
-	qr{ \A (\s* background(?:-color)? \s* : \s* ) (?:\#fafafa|\#f3f3f3) ( \s* ; \s* ) \z }xmsi => $Background_Color,
+	# f2f2f2 panel background color
+	# whitesmoke breadcrumb color
+	# e9e9e9 alert secondary
+	qr{ \A (\s* background(?:-color)? \s* : \s* ) (?:\#fafafa|\#f3f3f3|\#f2f2f2|whitesmoke|\#e9e9e9) ( \s* ; \s* ) \z }xmsi => $Background_Color,
 
 	# 222222 general body color
 	# 4d4d4d label text color
 	# 676767 small label text color
-	qr{ \A (\s* color \s* : \s* ) (?:\#222222|\#4d4d4d|\#676767) ( \s* ; \s* ) \z }xmsi => $Body_Font_Color_rgba75,
+	# 333333 panel text color
+	#4f4f4f alert secondary text color
+	qr{ \A (\s* color \s* : \s* ) (?:\#222222|\#4d4d4d|\#676767|\#333333|\#4f4f4f) ( \s* ; \s* ) \z }xmsi => $Body_Font_Color_rgba75,
 	# rgba 0 0.75 input text color
 	qr{ \A (\s* color \s* : \s* ) (?:rgba\(0, \s* 0, \s* 0, \s* 0.75\)) ( \s* ; \s* ) \z }xmsi => $Success_Color,
 	qr{ \A (\s* (?:background(?:-color)?|color) \s* : \s* ) (\#[0-9a-f]+) ( \s* ; \s* ) \z }xmsi => sub {

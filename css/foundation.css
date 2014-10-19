@@ -1,5 +1,5 @@
 meta.foundation-version {
-  font-family: "/5.4.6/";
+  font-family: "/5.4.6/"; 
 }
 meta.foundation-mq-small {
   font-family: "/only screen/";
@@ -1130,15 +1130,15 @@ button, .button {
     color: white; 
 }
   button.secondary, .button.secondary {
-    background-color: #e9e9e9;
+    background-color: black;
     border-color: #bababa;
-    color: #333333; 
+    color: rgba(221, 204, 119, 0.75); 
 }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       background-color: #bababa; 
 }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      color: #333333; 
+      color: rgba(221, 204, 119, 0.75); 
 }
   button.success, .button.success {
     background-color: #5da423;
@@ -1176,7 +1176,7 @@ button, .button {
   button.info, .button.info {
     background-color: #a0d3e8;
     border-color: #61b6d9;
-    color: #333333; 
+    color: rgba(221, 204, 119, 0.75); 
 }
     button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
       background-color: #61b6d9; 
@@ -1242,9 +1242,9 @@ button, .button {
       background-color: #2ba6cb; 
 }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #e9e9e9;
+      background-color: black;
       border-color: #bababa;
-      color: #333333;
+      color: rgba(221, 204, 119, 0.75);
       cursor: default;
       opacity: 0.7;
       box-shadow: none; 
@@ -1253,10 +1253,10 @@ button, .button {
         background-color: #bababa; 
 }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        color: #333333; 
+        color: rgba(221, 204, 119, 0.75); 
 }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #e9e9e9; 
+        background-color: black; 
 }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #5da423;
@@ -1312,7 +1312,7 @@ button, .button {
     button.disabled.info, button[disabled].info, .button.disabled.info, .button[disabled].info {
       background-color: #a0d3e8;
       border-color: #61b6d9;
-      color: #333333;
+      color: rgba(221, 204, 119, 0.75);
       cursor: default;
       opacity: 0.7;
       box-shadow: none; 
@@ -1458,15 +1458,15 @@ select::-ms-expand {
 }
 /* Separate prefix and postfix styles when on span or label so buttons keep their own */
 span.prefix, label.prefix {
-  background: #f2f2f2;
+  background: black;
   border-right: none;
-  color: #333333;
+  color: rgba(221, 204, 119, 0.75);
   border-color: #cccccc; 
 }
 span.postfix, label.postfix {
-  background: #f2f2f2;
+  background: black;
   border-left: none;
-  color: #333333;
+  color: rgba(221, 204, 119, 0.75);
   border-color: #cccccc; 
 }
 /* We use this to get basic styling on all basic form elements */
@@ -2030,15 +2030,15 @@ meta.foundation-mq-topbar {
           color: white; 
 }
       .top-bar-section ul li > a.button.secondary {
-        background-color: #e9e9e9;
+        background-color: black;
         border-color: #bababa;
-        color: #333333; 
+        color: rgba(221, 204, 119, 0.75); 
 }
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
           background-color: #bababa; 
 }
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-          color: #333333; 
+          color: rgba(221, 204, 119, 0.75); 
 }
       .top-bar-section ul li > a.button.success {
         background-color: #5da423;
@@ -2088,15 +2088,15 @@ meta.foundation-mq-topbar {
         color: white; 
 }
       .top-bar-section ul li > button.secondary {
-        background-color: #e9e9e9;
+        background-color: black;
         border-color: #bababa;
-        color: #333333; 
+        color: rgba(221, 204, 119, 0.75); 
 }
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
           background-color: #bababa; 
 }
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-          color: #333333; 
+          color: rgba(221, 204, 119, 0.75); 
 }
       .top-bar-section ul li > button.success {
         background-color: #5da423;
@@ -2452,7 +2452,7 @@ meta.foundation-mq-topbar {
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: whitesmoke;
+  background-color: black;
   border-color: #dddddd;
   border-radius: 3px; 
 }
@@ -2472,11 +2472,11 @@ meta.foundation-mq-topbar {
 }
     .breadcrumbs > *.current {
       cursor: default;
-      color: #333333; 
+      color: rgba(221, 204, 119, 0.75); 
 }
       .breadcrumbs > *.current a {
         cursor: default;
-        color: #333333; 
+        color: rgba(221, 204, 119, 0.75); 
 }
       .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
         text-decoration: none; 
@@ -2530,7 +2530,7 @@ meta.foundation-mq-topbar {
     top: 50%;
     margin-top: -0.6875rem;
     right: 0.25rem;
-    color: #333333;
+    color: rgba(221, 204, 119, 0.75);
     opacity: 0.3; 
 }
     .alert-box .close:hover, .alert-box .close:focus {
@@ -2553,9 +2553,9 @@ meta.foundation-mq-topbar {
     color: white; 
 }
   .alert-box.secondary {
-    background-color: #e9e9e9;
+    background-color: black;
     border-color: #c8c8c8;
-    color: #4f4f4f; 
+    color: rgba(221, 204, 119, 0.75); 
 }
   .alert-box.warning {
     background-color: #f08a24;
@@ -2565,7 +2565,7 @@ meta.foundation-mq-topbar {
   .alert-box.info {
     background-color: #a0d3e8;
     border-color: #74bfdd;
-    color: #4f4f4f; 
+    color: rgba(221, 204, 119, 0.75); 
 }
   .alert-box.alert-close {
     opacity: 0; 
@@ -3079,8 +3079,8 @@ meta.foundation-mq-topbar {
   border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
-  color: #333333; 
+  background: black;
+  color: rgba(221, 204, 119, 0.75); 
 }
   .panel > :first-child {
     margin-top: 0; 
@@ -3089,7 +3089,7 @@ meta.foundation-mq-topbar {
     margin-bottom: 0; 
 }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
-    color: #333333; 
+    color: rgba(221, 204, 119, 0.75); 
 }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
@@ -3105,7 +3105,7 @@ meta.foundation-mq-topbar {
     margin-bottom: 1.25rem;
     padding: 1.25rem;
     background: #f2fafc;
-    color: #333333; 
+    color: rgba(221, 204, 119, 0.75); 
 }
     .panel.callout > :first-child {
       margin-top: 0; 
@@ -3114,7 +3114,7 @@ meta.foundation-mq-topbar {
       margin-bottom: 0; 
 }
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
-      color: #333333; 
+      color: rgba(221, 204, 119, 0.75); 
 }
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
       line-height: 1;
@@ -3225,7 +3225,7 @@ meta.foundation-mq-topbar {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
     text-align: center;
-    color: #333333;
+    color: rgba(221, 204, 119, 0.75);
     font-weight: normal;
     font-size: 2rem;
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; 
@@ -3244,7 +3244,7 @@ meta.foundation-mq-topbar {
     background-color: black;
     padding: 0.9375rem;
     text-align: center;
-    color: #333333;
+    color: rgba(221, 204, 119, 0.75);
     font-size: 0.875rem;
     font-weight: normal;
     border-bottom: dotted 1px #dddddd; 
@@ -3948,7 +3948,7 @@ small {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
-  color: #333333;
+  color: rgba(221, 204, 119, 0.75);
   background-color: #f8f8f8;
   border-width: 1px;
   border-style: solid;
@@ -4449,7 +4449,7 @@ dialog {
   border-bottom: dotted 1px #cccccc;
   cursor: help;
   font-weight: bold;
-  color: #333333; 
+  color: rgba(221, 204, 119, 0.75); 
 }
   .has-tip:hover, .has-tip:focus {
     border-bottom: dotted 1px #134b5b;
@@ -4741,7 +4741,7 @@ dialog {
     display: block; 
 }
   .progress.secondary .meter {
-    background: #e9e9e9;
+    background: black;
     height: 100%;
     display: block; 
 }
@@ -5018,12 +5018,12 @@ dialog {
     color: white; 
 }
   .label.secondary {
-    background-color: #e9e9e9;
-    color: #333333; 
+    background-color: black;
+    color: rgba(221, 204, 119, 0.75); 
 }
   .label.info {
     background-color: #a0d3e8;
-    color: #333333; 
+    color: rgba(221, 204, 119, 0.75); 
 }
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
@@ -5762,7 +5762,7 @@ table {
     font-weight: bold; 
 }
   table thead {
-    background: whitesmoke; 
+    background: black; 
 }
     table thead tr th,
     table thead tr td {
@@ -5772,7 +5772,7 @@ table {
       color: rgba(221, 204, 119, 0.75); 
 }
   table tfoot {
-    background: whitesmoke; 
+    background: black; 
 }
     table tfoot tr th,
     table tfoot tr td {
@@ -6786,7 +6786,10 @@ th.hide-for-touch {
    Foundation is missing style for input placeholders
    http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
 */
-
+/*
+   Styling input form placeholder text.
+   http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
+*/
 /* WebKit browsers */
 ::-webkit-input-placeholder {
     color:    rgba(221, 204, 119, 0.25); }
