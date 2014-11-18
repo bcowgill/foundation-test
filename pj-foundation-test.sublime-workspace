@@ -51,7 +51,7 @@
 			"file": "foundation-test.html",
 			"settings":
 			{
-				"buffer_size": 20951,
+				"buffer_size": 22289,
 				"line_ending": "Windows",
 				"name": "foundation-test.html"
 			}
@@ -76,7 +76,7 @@
 			"file": "parse-css.pl",
 			"settings":
 			{
-				"buffer_size": 5703,
+				"buffer_size": 6140,
 				"line_ending": "Windows"
 			}
 		},
@@ -84,7 +84,7 @@
 			"file": "out.err",
 			"settings":
 			{
-				"buffer_size": 474582,
+				"buffer_size": 477549,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,7 +100,15 @@
 			"file": "css/foundation.css",
 			"settings":
 			{
-				"buffer_size": 181874,
+				"buffer_size": 182464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Kitchen-sink-Foundation-Docs.html",
+			"settings":
+			{
+				"buffer_size": 76877,
 				"line_ending": "Unix"
 			}
 		}
@@ -273,6 +281,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"css",
+			"img",
+			"color",
+			"button",
+			"background_color",
+			"black",
 			"found",
 			"fafafa",
 			"0.75",
@@ -394,13 +408,7 @@
 			"nodes",
 			"collapseGroup",
 			"console.clear",
-			"logVar",
-			"renderer",
-			"layout",
-			"clicked",
-			"edges",
-			"nodes",
-			"dagre"
+			"logVar"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -475,7 +483,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -499,7 +507,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 131.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -563,15 +571,15 @@
 					"file": "foundation-test.html",
 					"settings":
 					{
-						"buffer_size": 20951,
+						"buffer_size": 22289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								426,
-								426
+								21259,
+								21262
 							]
 						],
 						"settings":
@@ -581,7 +589,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 19151.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -643,15 +651,15 @@
 					"file": "parse-css.pl",
 					"settings":
 					{
-						"buffer_size": 5703,
+						"buffer_size": 6140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								80
+								850,
+								859
 							]
 						],
 						"settings":
@@ -670,7 +678,7 @@
 					"file": "out.err",
 					"settings":
 					{
-						"buffer_size": 474582,
+						"buffer_size": 477549,
 						"regions":
 						{
 						},
@@ -705,8 +713,8 @@
 						"selection":
 						[
 							[
-								472,
-								472
+								0,
+								0
 							]
 						],
 						"settings":
@@ -726,7 +734,7 @@
 					"file": "css/foundation.css",
 					"settings":
 					{
-						"buffer_size": 181874,
+						"buffer_size": 182464,
 						"regions":
 						{
 						},
@@ -745,6 +753,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Kitchen-sink-Foundation-Docs.html",
+					"settings":
+					{
+						"buffer_size": 76877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2058,
+								2058
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1644.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
